@@ -1,0 +1,364 @@
+<!-- This code is modified from a website from https://github.com/rammcodes/Dopefolio/blob/main/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>ashy portfoilio</title>
+    <meta name="description" content="Portfolio Template for Developer" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="nagicolor.png"
+              alt="My Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">DSAMS</span> <!--Top menu-->
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary"><strong>Welcome</strong></h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            This is a website that I have turned into my own with newly acquired skills in coding due to my summer tech classes.
+          </p>
+        </div>
+        <div class="home-hero__cta">
+          <a href="./#projects" class="btn btn--bg">Projects</a>
+        </div>
+      </div>
+      <div class="home-hero__socials"><!--Social icons on the side-->
+        <div class="home-hero__social">
+          <a href="https://www.roblox.com/users/1380875634/profile"target="_blank" class="home-hero__social-icon-link">
+            <img
+              src="rblxicon.jpg"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://github.com/dsgenielab"target="_blank" class="home-hero__social-icon-link">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://codepen.io/DS-the-reactor"target="_blank" class="home-hero__social-icon-link">
+            <img
+              src="https://blog.codepen.io/wp-content/uploads/2014/03/codepen-logo.svg"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="home-hero__mouse-scroll-cont"> <!--cool mouse thingy-->
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            Take a look into my life from my website!
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Get to know me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                Hey! It's
+                <strong>Dellecia Spence</strong>
+                and I'm a <strong>high school student.</strong> I am 
+                <strong> 16 </strong>
+                years old and I was introduced to proper code in a summer class
+                 despite it not being my first time 
+                exposed to coding.
+              </p>
+              <p class="about__content-details-para">
+                I like using my computer and coding gives be more opportunities to learn more about it. Feel free to 
+                <strong>contact</strong> me here <strong>delleciageniuslab@gmail.com.</strong>
+              </p>
+            </div>
+            <a href="https://mail.google.com/mail/u/0/#inbox" class="btn btn--med btn--theme dynamicBgClr" target="_blank"
+              >Contact</a>
+
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">  
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">Adaptivity</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">Communication</div>
+              <div class="skills__skill">Coding</div>
+              <div class="skills__skill">Android</div>
+              <div class="skills__skill">IOS</div>
+              <div class="skills__skill">Innovative thinking</div>
+              <div class="skills__skill">Attention to detail</div>
+              <div class="skills__skill">Patience</div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            These are the websites I have started thanks to the tech classes.
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0070/7032/files/AMgoal-setting_HEADER.jpg?v=1579623952&width=1024"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Project 1</h3>
+              <p class="projects__row-content-desc">
+                This was created the first day of computer classes. This was made on <a><strong><a href = "https://codepen.io/"target="_blank"> Codepen.io.</strong></a> CodePen is an online community for testing and showcasing user-created HTML, CSS and JavaScript code snippets. I wrote a brief fictional story of my life as a student and goals that I achieved. Below is a link to it.
+              </p>
+              <a
+                href="file:///Users/delleciaspence/Desktop/summer%20tech%20program/Website%201/index.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Link</a>
+
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="https://www.vmcdn.ca/f/files/via/images/food/burger_king_canada_impossible__whopper.jpg;w=960"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Website 0</h3>
+              <p class="projects__row-content-desc">
+                Web 0 was made with <strong><a target="_blank" rel="noreferrer" href="https://www.sublimetext.com/"https://www.sublimetext.com/>Sublime Text.</strong></a> As we progressed into the lessons and left the basics, it got more detailed. I learned to change the background color and add pictures to my website. Again a fictional story about a friend suspected of being missing.
+              </p>
+              <a
+                href="Website 0/index.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Link</a> 
+
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="work in progress.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Portfolio Website</h3>
+              <p class="projects__row-content-desc">
+                The Portfolio website is a work in progress. Our instructor gave us an already made html and style.css and we were given the opportunity to make it our own. There was a lot of difficulty for me to remember certain tech shortcuts but overall it was a fun experience. The link leads to the original html before I made my changes.
+              </p>
+              <a
+                href="project-1.html/index.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Link</a
+              >
+              </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="image-1 copy.jpg"
+                loading="lazy">
+              </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Slider Project</h3>
+              <p class="projects__row-content-desc">
+                The Slider Project is a website with photos and buttons to slide back and forth between them. It is composed of 6 pictures of digital art that I got from <strong><a href="https://www.wallpaperflare.com/"target="_blank"
+              />Wallpaper.com</p></strong>
+              <a
+                href="https://dsgenielab.github.io/ashyslider/"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Link</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+          <strong>Reach out to me if you have questions!</strong>
+          </span>
+        </h2>
+        <div class="contact__form-container">
+          <form action="#" class="contact__form">
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="name">Name</label>
+              <input
+                required
+                placeholder="Enter Your Name"
+                type="text"
+                class="contact__form-input"
+                name="name"
+                id="name"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="email">Email</label>
+              <input
+                required
+                placeholder="Enter Your Email"
+                type="text"
+                class="contact__form-input"
+                name="email"
+                id="email"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="message">Message</label>
+              <textarea
+                required
+                cols="30"
+                rows="10"
+                class="contact__form-input"
+                placeholder="Enter Your Message"
+                name="message"
+                id="message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn--theme contact__btn">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="#">
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Dellecia Spence</h4>
+            <p class="main-footer__short-desc">
+              Thank you for taking the time to browse my website and have a good day!
+            </p>
+          </div>
+        </div>
+
+        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+        <div class="main-footer__lower">
+          &copy; Copyright 2021. Made by
+          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
+            >Ram Maheshwari</a>
+            <p>Modified by Dellecia Spence</p> <!--credits to original coder-->
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
